@@ -58,4 +58,4 @@ If you're a 42 network student, please write everything yourself from scratch af
 
 # Notes
 I tried to keep the code as short and clean as possible so if you are looking for a short and not scary project then it's worth investing the time to
-figure out the algorithm and the implementaions. Feel free to sugggest any improvement regarding the algorithm improvement :)
+figure out the algorithm and the implementaions. Feel free to sugggest any improvement regarding the algorithm performance :)
