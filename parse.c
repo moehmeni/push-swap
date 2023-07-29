@@ -6,7 +6,7 @@
 /*   By: mmomeni <mmomeni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/07 20:38:15 by mmomeni           #+#    #+#             */
-/*   Updated: 2023/05/08 23:03:53 by mmomeni          ###   ########.fr       */
+/*   Updated: 2023/07/29 15:12:44 by mmomeni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ int	init_stack(t_list **sa, t_list **sb, int argc, char **argv)
 		i = 0;
 		nums = ft_split(argv[argc], ' ');
 		if (!nums || !nums[0])
-			return (terminate(sa, sb, 1));
+			return (terminate(sa, sb, 0));
 		while (nums[i])
 			i++;
 		while (i--)
